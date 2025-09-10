@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .head-1{
+            display: inline-block;
+            height: 10fr;
+            width: 47vw;
+        }
+        .head, .head1{
+            display: inline-block;
+            text-align: end;
+        }
+
+        .dash li::marker{
+            content: "-" ;
+        }
+    </style>
+
+    <title>Basic HTML Website</title>
+</head>
+<body style="width: 800px; height:fit-content; margin:auto;">
+    <header style="border: 1px solid black; padding:10px;">
+        <section style="display: flex;">
+            <article class="head-1" style="width: 45vw; height: 60px;">
+                <div class="head1"><img style="height: 30px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2eas0MmGfxIgU1UCmVrnxlSSd9fmTFKauZA&s" alt="icon"></div>
+                <div class="head1"><h2>your name</h2></div>
+            </article>
+            <article class="head-1 just" style="width: 45vw; text-align: end; height: 60px;">
+                <div class="head">Home /</div>
+                <div class="head">Projects /</div>
+                <div class="head">Articles /</div>
+                <div class="head">Contact</div>
+            </article>
+        </section>
+        <section style="height: 100px;">
+            <div><h1 style="text-align: center; font-size: 30px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Frontend Developer</h1>
+                <h5 style="color: rgb(0, 0, 0,0.3); text-align: center;">html only with proper layou, no styling</h5>
+            </div>
+        </section>
+    </header>
+
+    <main style="border: 2px solid black; ">
+       <section style="display: flex;">
+        <article style="border: 1px solid black; height: 400px; width: 220px; display: inline-block; ">
+            <div style="height: 85px; ">
+                <h3 style="padding:15px;">Projects</h3>
+                <p style="padding:10px;">HTML Only Portfolio</p>
+            </div>
+            <hr>
+            <div style="height: 40px; padding:10px;">Calculator</div>
+            <hr>
+            <div style="height: 40px; padding:10px;">Quiz App</div>
+            <hr>
+            <div style="height: 40px;  padding:10px;">Countdown Timer</div>
+            <hr>
+            <div style="height: 100px; padding:10px; ;">Product Upcoming Page</div>
+        </article>
+        <article style="border: 1px solid black; height: 400px; width: 300px; display: inline-block;">
+            <div style="height: 9.5em;">
+                <h3 style="padding:15px;">Work Experience</h3>
+                <h5 style="padding:15px;">roadmap.sh</h5>
+                <p style="padding:15px;">Solves all the frontend projects</p>
+                <a style="padding:15px; text-decoration: none; color: rgb(44, 160, 206);" href="">Visit my profile</a>
+            </div>
+            <br>
+            <hr>
+            <div style="height: 11.5em;">
+                <h5 style="padding:15px;">Open Source Work</h5>
+                <p style="padding:15px;">Contributed to 50 opensource projects, Made my own projects with 200 GitHub Starts.</p>
+                <a style="padding:15px; text-decoration: none; color: rgb(44, 160, 206);" href="">Visit my GitHub Profile</a>
+            </div>
+        </article>
+        <article style="border: 1px solid black; height: 400px; width: 300px; display: inline-block; padding: 10px;">
+            <h3 style="padding:15px;">Education</h3>
+            <div style="padding:10px;">Graduated with 3.76 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</div>
+            <div style="padding:10px;">Courses I took:</div>
+            <ul style="padding:10px;" class="dash">
+                <li><p style="padding:2px ;">Object Oriented Programming</p></li>
+                <li><p style="padding:2px ;">Data Structures and Algorithms</p></li>
+                <li><p style="padding:2px ;">Web Enegineering</p></li>
+                <li><p style="padding:2px ;">Artificial Intelligence</p></li>
+                <li><p style="padding:2px ;">Human Computer Interaction</p></li>
+                <li><p style="padding:2px ;">Computer Graphics</p></li>
+                <li> <p style="padding:2px ;">Database Management Systems</p></li>
+                <li><p style="padding:2px ;">Distributed Database Systems</p></li>
+                <li> <p style="padding:2px ;">Discreet MAthematics</p></li>
+            </ul>
+        </article>
+       </section>
+
+       <section style=" padding: 30px;">
+        <article ><h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Reviews from my Teachers</h3></article>
+        <article style="display: flex; margin: 10px;">
+            <div style="border: 1px solid black; height: 180px; width: 250px; display: inline-block; border-radius: 40px; margin: 10px;">
+                <p style="padding: 20px;">John doe was a brilliant student; always stood out with his assignments. </p>
+                <div style="padding: 20px; color: rgb(0,0,0,0.4);">
+                    <p>Jane Doe</p>
+                    <p>Assistant Professor</p>
+                </div>
+            </div>
+            <div style="border: 1px solid black; height: 180px; width: 250px; display: inline-block; border-radius: 40px;  margin: 10px;">
+                <p style="padding: 20px;">John doe was a brilliant student; always stood out with his assignments.</p>
+                <div style="padding: 20px;  color: rgb(0,0,0,0.4);">
+                    <p>Jane Doe</p>
+                    <p>Assistant Professor</p>
+                </div>
+            </div>
+            <div style="border: 1px solid black; height: 180px; width: 250px; display: inline-block; border-radius: 40px;  margin: 10px;">
+                <p style=" padding:20px ;">John doe was a brilliant student; always stood out with his assignments.</p>
+                <div style="padding: 20px;  color: rgb(0,0,0,0.4);">
+                    <p>Jane Doe</p>
+                    <p>Assistant Professor</p>
+                </div>
+            </div>
+        </article>
+        <br><br><br><br><br><br>
+        <article>
+            <div style="text-align: center; margin:20px;">
+                <h3>&copy; all rights reserved 2025</h3>
+            </div>
+        </article>
+       </section>
+    </main>
+    
+</body>
+</html>
